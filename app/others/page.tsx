@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import p1 from '../../public/verizon.png'
-import jv from  '../../public/spring.png'
-import mv from '../components/images/akatsuki.jpg'
+import p1 from '../../public/images/verizon.png'
+import jv from  '../../public/images/spring.png'
+import mv from '../../public/images/akatsuki.jpg'
 const page = () => {
   return (
     <div className='grid justify-center'>
