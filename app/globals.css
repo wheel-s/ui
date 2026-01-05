@@ -1,4 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Modak&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+@import "animate.css";
+
+
 
 :root {
   --background: #ffffff;
@@ -20,7 +25,216 @@
 }
 
 body {
-  background: var(--background);
+  background: hsl(216, 65%, 11%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.gri{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+}
+
+table{
+  
+  margin-left: .2rem;
+  width: 100%;
+  border-collapse: collapse;
+  transition:  transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+tr{
+  
+  font-size: 1rem;
+  margin: 2rem;
+  text-align: left;
+  padding: 38px, 50px;
+  
+  /*color:hsl(180, 76%, 49%);*/
+
+}
+td{
+  padding: .4rem;
+  color:  hsl(225,18%,61%);
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  border-bottom: .11px solid hsl(225,18%,61%);
+  
+  
+}
+td:nth-child(2){
+    padding-bottom: 2rem;
+    p{
+      margin-top:1rem;
+
+    }
+  }
+th{
+  padding: .4REM;
+  /* color:hsl(226, 70%, 93%); */
+  
+}
+
+
+.tilt{
+
+  padding: 20px;
+  margin-bottom: 50px;
+  perspective: 400px;
+  border-radius: 5px;
+  
+  transition: transform 0.5s ease;
+
+  
+
+
+}
+.tilt img{
+    object-fit: cover;
+}
+
+
+.img1{
+   transform:rotateX(12deg) translateZ(-4px)
+}
+.img2{
+   transform:rotateX(12deg) translateZ(8px) translateY(-10px)
+}
+.img3{
+   transform:rotateX(16deg) translateZ(50px) translateY(-9px)
+}
+.active::before{
+  content: "—————";
+  margin-right: .7rem;
+ 
+}
+.active{
+  color: white;
+  font:bold;
+    animation:tada 1s;
+}
+
+.svg{
+  stroke: #d4daed;
+  
+  stroke-dasharray: 240;
+  stroke-dashoffset: 240;
+  animation: draw 4s ease forwards;
+}
+.svgg{
+
+  stroke-width:3px;
+  fill: transparent;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  margin-bottom: -7rem;
+  animation:  draw 3s ease  forwards;
+}
+
+@keyframes draw{
+  to{
+    stroke-dashoffset: 0;
+  }
+  
+}
+.svg text{
+  animation:fadeIn 7s ease
+}
+
+
+.bg{
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  border-radius: 5px;
+  position:fixed;
+  bottom: 4rem;
+  width: 25rem;
+}
+
+.p{
+  font-family: monospace;
+  display: inline-block;
+  overflow: hidden;
+  letter-spacing:5px;
+  border-right: 2px solid;
+  
+  animation:typing 2s steps(7),
+  cursor .4s step-end infinite alternate;
+
+}
+@keyframes typing {
+
+  from{width: 0;}
+  to{width: 100px}
+}
+@keyframes cursor {
+  50%{ border-color:transparent}
+}
+
+.bgg{
+
+  /* background: linear-gradient(to right, #2c5363, #203a43, #0f2027); */
+animation: fadeBlur 2s 3s  forwards;
+  border-radius: 5px;
+  width: 100%;
+  display: flex;
+}
+
+
+.ss{
+  animation: fadeInUp 1.5s  ;
+}
+
+
+.fade {
+  animation: fadeBlur 1s forwards;
+}
+
+@keyframes fadeBlur {
+  from {
+    opacity: 1;
+    filter: blur(0px);
+  }
+  to {
+    opacity: 0;
+    filter: blur(8px);
+  }
+}
+
+
+.man{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+.down{
+  position: relative;
+  
+}
+
+.act{
+  margin-top: 100px;
+}
+
+.hov::before{
+  content:"";
+  position:absolute;
+  inset:0;
+}
+.hov:hover{
+  background: radial-gradient(circle, hsla(216,65%,16%, 0.4),  hsla(216,65%,16%, 3));
+}
+
+.hr{
+  width: 700%;
+  border-radius: 2px;
+  
+  margin-top: .8rem;
+  margin-bottom:.8rem;
+  font-size: 1px;
+  color:  hsl(225,18%,61%);
+}
+
+.a{
+  transform: rotateX(80deg) rotateY(40deg);
 }

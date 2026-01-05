@@ -1,0 +1,54 @@
+
+[
+    {
+        "year":2025,
+        "project":"Transcription API",
+        "link":"github.com",
+         "url":"https://github.com/wheel-s/text-transcription-api"
+    },
+     {
+        "year":2025,
+        "project":"NetPulse",
+        "link":"github.com",
+        "url":"https://github.com/wheel-s/netpulse"
+    },
+     {
+        "year":2024,
+        "project":"e-commerce",
+        "link":"github.com",
+        "url":"https://github.com/wheel-s/shopify"
+    },
+     {
+        "year":2024,
+        "project":"Transcription API",
+        "link":"github.com",
+        "url":"https://github.com/wheel-s/"
+    },
+     {
+        "year":2023,
+        "project":"Stream Vault",
+        "link":"github.com",
+        "url":"https://github.com/wheel-s/Stream-Vault"
+    },
+     {
+        "year":2023,
+        "project":"F — Server",
+        "link":"github.com",
+        "url":"https://github.com/wheel-s/F-server"
+    },
+     {
+        "year":2022,
+        "project":"Vault-ts",
+        "link":"github.com",
+        "url":"https://github.com/wheel-s/vault-ts"
+    },
+     {
+        "year":2022,
+        "project":"Garbage-Collector",
+        "link":"github.com",
+        "url":"https://github.com/wheel-s/garbage-collector"
+    }
+    
+    
+]
+
