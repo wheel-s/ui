@@ -50,8 +50,8 @@ const Load = ({children}:{children:React.ReactNode}) => {
           strokeWidth="2" /* Adds thickness even if font falls back */
         >
           {/* Background layers */}
-          <text x="152" y="190" fill="r">W</text>
-          <text x="148" y="186" fill="">W</text>
+          <text x="128" y="166" fill="r">W</text>
+          <text x="128" y="166" fill="">W</text>
           
           {/* Outline layer */}
           <text 
