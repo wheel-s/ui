@@ -37,11 +37,11 @@ const Load = ({children}:{children:React.ReactNode}) => {
         <svg viewBox="0 0 200 200" width="250" className="svgg">
           <defs>
             <mask id="text-mask">
-              <rect width="100%" height="100%" fill="black"/>
+              <rect width="10%" height="100%" fill="black"/>
               <text x="50%" y="60%"
                     textAnchor="middle"
                     fontSize="120"
-                    fontFamily="Arial"
+                    fontFamily="Montserrat"
                     fill="white"
                     stroke="none"
                     strokeWidth="6"
@@ -55,7 +55,7 @@ const Load = ({children}:{children:React.ReactNode}) => {
           <text x="50%" y="60%"
                 textAnchor="middle"
                 fontSize="120"
-                fontFamily="Arial"
+                fontFamily="Montserrat"
                 fill="none"
                 stroke="hsl(225,18%,61%)"
                 strokeWidth="6"

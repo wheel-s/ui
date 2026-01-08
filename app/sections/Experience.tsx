@@ -89,10 +89,10 @@ const Experience = () => {
 
         </section>
 
-        <div className="flex hover:text-[#00fac0]">
+        <div className="flex hover:text-[hsl(166,100%,49%)]">
            <Link href='/resume.png' className="flex">
             <h1 className="mt-9 text-slate-300  font-semibold text-md  hover:text-[#00fac0]" >View Full Resume </h1>
-            <p className=" mt-8 ml-2 rotate-[-15deg] text-white text-xl  max-sm:rotate-[-29deg] max-sm:ml-0.5">⇝</p>
+            <p className=" mt-8 ml-2 rotate-[-15deg] text-white text-xl  max-sm:rotate-[-29deg] max-sm:ml-0.5">→</p>
            </Link> 
         </div>
 

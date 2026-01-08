@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Modak&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Coiny&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Manrope:wght@200..800&family=Modak&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 @import "animate.css";
 
@@ -63,6 +62,7 @@ td{
   
   
 }
+
 td:nth-child(2){
     padding-bottom: 2rem;
     p{
@@ -124,8 +124,8 @@ th{
 }
 .svgg{
 
-display: block;
-justify-content: center;
+  display: block;
+  justify-content: center;
   
 }
 
@@ -204,10 +204,7 @@ animation: fadeBlur 2s 3s  forwards;
   font-optical-sizing: auto;
  
 }
-.down{
-  position: relative;
-  
-}
+
 
 .act{
   margin-top: 100px;
@@ -222,67 +219,6 @@ animation: fadeBlur 2s 3s  forwards;
   background: radial-gradient(circle, hsla(216,65%,16%, 0.4),  hsla(216,65%,16%, 3));
 }
 
-.hr{
-  width: 700%;
-  border-radius: 2px;
-  
-  margin-top: .8rem;
-  margin-bottom:.8rem;
-  font-size: 1px;
-  color:  hsl(225,18%,61%);
-}
-
-.a{
-  transform: rotateX(80deg) rotateY(40deg);
-}
 
 
 
-
-
-@keyframes waterFill {
-  0% {
-    stop-color: hsl(226, 70%, 93%);
-    offset: 100%; /* Water is at the bottom */
-  }
-  100% {
-    stop-color: hsl(226, 70%, 93%);
-    offset: 0%;   /* Water has reached the top */
-  }
-}
-
-.water-gradient stop {
-  animation: waterFill 2s ease-in-out forwards;
-}
-
-
-
-.water-fill {
-  width: 600px;
-}
-
-.water-fill .stroke {
-  font-size: 120px;
-  font-family: Arial, sans-serif;
-  fill: none;
-  stroke: #00bfff;
-  stroke-width: 6;
-}
-
-.water-fill .water {
-  fill: #00bfff;
-  animation: water-rise 4s ease-in-out infinite;
-}
-
-/* Rising water animation */
-@keyframes water-rise {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-140px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}

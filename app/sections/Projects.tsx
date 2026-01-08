@@ -50,7 +50,7 @@ const Projects = () => {
         <section className='sm:flex justify-opossite mt-10'>
           
             <div className=' sm:w-[150%] '>
-                <a href={"https://github.com/wheel-s/car-ui"}><h1 className='mt-5 mb-5 font-medium text-md cursor-pointer text-white'>Car Arena</h1></a>
+                <a target='_blank' href={"https://github.com/wheel-s/car-ui"}><h1 className='mt-5 mb-5 font-medium text-md cursor-pointer text-white'>Car Arena</h1></a>
                 <p  className='  text-[1rem] text-[hsl(225,18%,61%)] '>
                   A Full-Stack vehicle data paltform using FastAPI and react. features includes
                   data pipeline, background task, API gateway,internal health checking systems, comparism, analytics. 
@@ -71,7 +71,7 @@ const Projects = () => {
         <section className='sm:flex justify-opossite mt-10'>
           
             <div className=' sm:w-[150%] '>
-          <a href="https://github.com/wheel-s/http-from-tcp"><h1 className='mt-5 mb-5 font-medium text-white text-md cursor-pointer '>Http From Tcp</h1></a>     
+          <a  target='_blank' href="https://github.com/wheel-s/http-from-tcp"><h1 className='mt-5 mb-5 font-medium text-white text-md cursor-pointer '>Http From Tcp</h1></a>     
                 <p ref={ref}  className='  text-[1rem] text-[hsl(225,18%,61%)] '>
                     Http Protocol built in C with manual socket handling,request parsing (RequestLine, Header, Body), 
                     response handling, chunked encoding, and binary data handling.
@@ -91,7 +91,7 @@ const Projects = () => {
         <section className='sm:flex justify-opossite mt-10'>
           
             <div className=' sm:w-[150%] '>
-                <a href="https://github.com/wheel-s/redis-server"></a><h1 className='mt-5 mb-5 font-medium text-md text-white crsor-pointer'>Redis Server</h1>
+                <a  target='_blank' href="https://github.com/wheel-s/redis-server"></a><h1 className='mt-5 mb-5 font-medium text-md text-white crsor-pointer'>Redis Server</h1>
                 <p ref={ref}  className='  text-[1rem] text-[hsl(225,18%,61%)] '>
                   A lightweight redis-compatible in — memory store written in C++. Supports strings, lists,
                   hashes, full redis serilization protocol (RESP) parsing, multi-client concurrency, and periodic disk persistence.
