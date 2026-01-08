@@ -124,12 +124,9 @@ th{
 }
 .svgg{
 
-  stroke-width:3px;
-  fill: transparent;
-  stroke-dasharray: 300;
-  stroke-dashoffset: 300;
-  margin-bottom: -7rem;
-  animation:  draw 3s ease  forwards;
+display: block;
+justify-content: center;
+  
 }
 
 @keyframes draw{
@@ -237,4 +234,55 @@ animation: fadeBlur 2s 3s  forwards;
 
 .a{
   transform: rotateX(80deg) rotateY(40deg);
+}
+
+
+
+
+
+@keyframes waterFill {
+  0% {
+    stop-color: hsl(226, 70%, 93%);
+    offset: 100%; /* Water is at the bottom */
+  }
+  100% {
+    stop-color: hsl(226, 70%, 93%);
+    offset: 0%;   /* Water has reached the top */
+  }
+}
+
+.water-gradient stop {
+  animation: waterFill 2s ease-in-out forwards;
+}
+
+
+
+.water-fill {
+  width: 600px;
+}
+
+.water-fill .stroke {
+  font-size: 120px;
+  font-family: Arial, sans-serif;
+  fill: none;
+  stroke: #00bfff;
+  stroke-width: 6;
+}
+
+.water-fill .water {
+  fill: #00bfff;
+  animation: water-rise 4s ease-in-out infinite;
+}
+
+/* Rising water animation */
+@keyframes water-rise {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-140px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }

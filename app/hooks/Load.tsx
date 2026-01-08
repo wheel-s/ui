@@ -34,37 +34,48 @@ const Load = ({children}:{children:React.ReactNode}) => {
   return (
     <div className="w-full h-screen  flex justify-center  bgg">
        <div className="mt-50">
-        <svg className="svgg " width="300" height="300" viewBox="0 0 300 300"
-          xmlns="http://www.w3.org/2000/svg">
-
-
-          <rect width="100%" height="100%"fill=""/>
-
-            <g
-              fontFamily="Arial Black, Impact, sans-serif"
-              fontSize="200"
-              fontWeight="900"
-              textAnchor="middle"
-              strokeLinejoin="round"  /* Fixes the weird corners */
-              strokeLinecap="round"   /* Smooths the edges */
-            >
-              {/* The stroke layer should use paint-order to stay under the letter */}
-              <text 
-                x="132" 
-                y="174" 
-                fill="none" 
-                stroke="hsl(198, 39%, 28%)" 
-                strokeWidth="8" 
-                style={{ paintOrder: 'stroke fill' }} 
-              >
+        <svg viewBox="0 0 200 200" width="250" className="svgg">
+          <defs>
+            <mask id="text-mask">
+              <rect width="100%" height="100%" fill="black"/>
+              <text x="50%" y="60%"
+                    textAnchor="middle"
+                    fontSize="120"
+                    fontFamily="Arial"
+                    fill="white"
+                    stroke="none"
+                    strokeWidth="6"
+                    transform="scale(1.3,1)"
+                    transform-origin="center">
                 W
               </text>
+            </mask>
+          </defs>
 
-              {/* Top layer */}
-              <text x="128" y="166" fill="hsl(226, 70%, 93%)">W</text>
-            </g>
+          <text x="50%" y="60%"
+                textAnchor="middle"
+                fontSize="120"
+                fontFamily="Arial"
+                fill="none"
+                stroke="hsl(225,18%,61%)"
+                strokeWidth="6"
+                transform="scale(1.3,1)"
+                transform-origin="center">
+            W
+          </text>
+
+          <rect y="200" width="600" height="200"
+                fill="hsl(226, 70%,93%)"
+                mask="url(#text-mask)">
+            <animate
+              attributeName="y"
+              from="120"
+              to="0"
+              dur="4s"
+              repeatCount="indefinite" />
+          </rect>
         </svg>
-        <p className=" p mb-10 text-white text-2xl ml-20">wheels</p>
+        <p className=" p mb-10 text-white text-2xl mt-[-4rem] ml-20">wheels</p>
 
       </div>
 
