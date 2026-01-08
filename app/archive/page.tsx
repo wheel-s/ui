@@ -8,8 +8,8 @@ const Page = () => {
     <div>
 
       <div className='mt-3 p-10 max-sm:p-6'>
-        <Link href='/'><p className='text-[#00fac0] mb-2 text-[1rem] man'>⇜ Georege Ezra </p></Link> 
-        <h1 className='mb-10 text-3xl  font-black man text-white'>All Projects</h1>
+        <Link href='/'><p className='text-[#00fac0] ml-[1] mt-4 ml-4 font-semibold text-[1rem] man'>← Georege Ezra </p></Link> 
+        <h1 className='mb-4 text-4xl  font-black ml-[-3] man text-white'>All Projects</h1>
 
 
         <section>
@@ -20,8 +20,8 @@ const Page = () => {
               <tr>
             
               <th ><p className='text-white'>year</p></th>
-              <th><p className='ml-7 mb-7 mt-6 text-white'>project</p></th>
-              <th> <p className='hidden mb-7 mt-6 md:block  text-white'>Link</p></th>
+              <th><p className='ml-7 mb-5 mt-6 text-white'>project</p></th>
+              <th> <p className='hidden mb-4 mt-6 md:block  text-white'>Link</p></th>
               </tr>
             </thead>
           
