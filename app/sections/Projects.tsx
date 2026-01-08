@@ -101,7 +101,7 @@ const Projects = () => {
               <div className='mt-4 flex gap-3'>
                 <Button text='C++'/>
                 <Button text='RESP'/>
-                <Button text='postgreSQL'/>
+                {/* <Button text='postgreSQL'/> */}
               </div>
             </div>
               <div className='-order-1 w-full mt-5 max-sm:'>
@@ -113,7 +113,7 @@ const Projects = () => {
 
        <Link  href='archive' className='flex hover:text-[#00fac0] '>
         <h1 className='mt-20 text-slate-300 mb-10 font-bold hover:text-[#00fac0] '>View Full Project Archive </h1>
-        <p className='mt-19 ml-3 rotate-[-22deg] text-xl text-white'>⇝</p>         
+        <p className='mt-19 ml-3 rotate-[-22deg] text-xl text-white max-sm:rotate-[-29deg] max-sm:ml-3'>⇝</p>         
         </Link> 
       </div>
     </div>

@@ -34,7 +34,7 @@ const Load = ({children}:{children:React.ReactNode}) => {
   return (
     <div className="w-full h-screen  flex justify-center  bgg">
        <div className="mt-50">
-        <svg className="svgg " width="300" height="300" viewBox="0 0 300 300"
+        <svg className="svgg" viewBox="0 0 300 300" style={{width:'100%', height:'auto', maxWidth:'300px'}}
           xmlns="http://www.w3.org/2000/svg">
 
 
