@@ -10,7 +10,7 @@ const Page = () => {
       <div className='mt-3 p-10 max-sm:p-6'>
         <Link href='/'><p className='text-[hsl(166,60%,69%)] ml-[1] mt-4 ml-4 mb-1 man font-semibold text-[1.1rem] man'>← Georege Ezra </p></Link> 
         <h1 className='mb-7 text-4xl  font-black ml-[-3]  man text-slate-300'>All Projects</h1>
-      <hr className='text-[hsl(225,18%,61%)] relative top-18'/>
+      <hr className='text-[hsl(225,18%,51%)]  relative top-18'/>
 
         <section>
   
