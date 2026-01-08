@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <div>
 
-      <div className='mt-3 p-10'>
+      <div className='mt-3 p-10 max-sm:p-6'>
         <Link href='/'><p className='text-[#00fac0] mb-2 text-[1rem] man'>⇜ Georege Ezra </p></Link> 
         <h1 className='mb-10 text-3xl  font-black man text-white'>All Projects</h1>
 
