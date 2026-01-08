@@ -28,9 +28,10 @@ const Header = () => {
         </div> */}
         
         <div className="lg:mt-60 ss p-7 -mt-8 text-slate-400 flex gap-5 text-2xl mb-8">
-        <FaGithub className="mr-3"/>
-        <FaLinkedin className="mr-3"/>
-        <FaReddit/>
+       <a href="https://github.com/wheel-s"> <FaGithub className="mr-3"/></a>
+       <a href="https://www.linkedin.com/in/ezra-george-0b5b062b3"> <FaLinkedin className="mr-3"/></a>
+       <a href="https://www.linkedin.com/in/ezra-george-0b5b062b3/"><FaReddit/></a>
+        
         
       </div>
     </div>

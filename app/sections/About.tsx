@@ -44,7 +44,7 @@ const About = () => {
   return (
     <div>
       <div className='px-7 lg:mt' >
-        <h1 className='ss text-sm font-bold mb-10 lg:hidden'>ABOUT</h1>
+        <h1 className='ss text-sm text-white font-bold mb-10 lg:hidden'>ABOUT</h1>
   
    
     

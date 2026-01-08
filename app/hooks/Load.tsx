@@ -46,20 +46,20 @@ const Load = ({children}:{children:React.ReactNode}) => {
           fontWeight="900"
           textAnchor="middle">
 
-
+{/* 
           <text x="152" y="190">W</text>
           <text x="148" y="186">W</text>
-          <text x="144" y="182">W</text>
+          <text x="144" y="182">W</text> */}
           <text x="134" y="173"  stroke=" hsl(198, 39%, 28%)">W</text>
 
           <text x="132" y="174" stroke=" hsl(198, 39%, 28%)" >W</text>
-          <text x="132"y="170"  stroke="">W</text>
+          {/* <text x="132"y="170"  stroke="">W</text> */}
 
 
           <text x="128" y="166" fill="hsl(22q6, 70%, 93%)"stroke="ray"  >W</text>
           </g>
         </svg>
-        <p className=" p mb-10 text-2xl ml-20">wheels</p>
+        <p className=" p mb-10 text-white text-2xl ml-20">wheels</p>
 
       </div>
 

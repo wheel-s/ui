@@ -39,12 +39,12 @@ const Experience = () => {
   return (
     <div >
       <div className="p-7 man mt-16 lg:mt-23">
-        <h1 className="mb-10 text-sm font-bold lg:hidden" >EXPERIENCE</h1>
+        <h1 className="mb-10 text-sm text-white font-bold lg:hidden" >EXPERIENCE</h1>
 
         <section className="sm:flex ">
             <div className="mb-4 w-full text-[#8892b0] ">2024 — present</div>
             <div className="">
-                <h2 className="text-md font-bold">Independent Senior Engineer  <span className="ml-2 mr-2">|</span>  Remote</h2>
+                <h2 className="text-md text-white font-bold">Independent Senior Engineer  <span className="ml-2 mr-2">|</span>  Remote</h2>
                 <p className=" text-[hsl(225,18%,61%)]  mt-4">
                 
                     Build and maintain critical components used to construct Klaviyo’s frontend, 
@@ -70,7 +70,7 @@ const Experience = () => {
 
           <div className="mb-4 w-full text-[#8892b0] ">2022 — 2023 </div>
             <div className="">
-                <h2  className="text-md font-bold">Junior Software Engineer · Nitda</h2>
+                <h2  className="text-md text-white font-bold">Junior Software Engineer · Nitda</h2>
                 <p  ref={ref}  className=" text-[hsl(225,18%,61%)]  mt-4">
                      Developed and styled interactive web applications and
                     Contributed to technical standards and guidlines for software in projects ensuring systems met performance,
@@ -92,7 +92,7 @@ const Experience = () => {
         <div className="flex hover:text-[#00fac0]">
            <Link href='/resume.png' className="flex">
             <h1 className="mt-9 text-slate-300  font-semibold text-md  hover:text-[#00fac0]" >View Full Resume </h1>
-            <p className=" mt-8 ml-2 rotate-[-15deg] text-xl">⇝</p>
+            <p className=" mt-8 ml-2 rotate-[-15deg] text-white text-xl">⇝</p>
            </Link> 
         </div>
 
