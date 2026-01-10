@@ -56,7 +56,7 @@ tr{
 td{
   padding: .4rem;
   color:  hsl(225,18%,61%);
-  font-family: "Manrope", sans-serif;
+  font-family: monospace, sans-serif;
   font-optical-sizing: auto;
   border-bottom: .11px solid hsl(225,18%,61%);
   
@@ -107,6 +107,7 @@ th{
 .active::before{
   content: "—————";
   margin-right: .7rem;
+  font-family: 'sans';
  
 }
 .active{
@@ -219,6 +220,10 @@ animation: fadeBlur 2s 3s  forwards;
   background: radial-gradient(circle, hsla(216,65%,16%, 0.4),  hsla(216,65%,16%, 3));
 }
 
-
+.f{
+  font-family: 'Roboto';
+  font-size: .93rem;
+  font-weight:10;
+}
 
 

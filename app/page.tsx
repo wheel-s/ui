@@ -12,7 +12,7 @@ export default function Home() {
 
 
   return (
-   <main className=" overflow-hidden lg:flex lg:p-7 ">
+   <main className=" overflow-hidden lg:flex lg:p-4 ">
 
        <BodyProvider>
 

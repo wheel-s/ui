@@ -40,7 +40,7 @@ const Load = ({children}:{children:React.ReactNode}) => {
   return (
     <div className="w-full h-screen  flex justify-center  bgg">
        <div className="mt-50">
-        <svg viewBox="0 0 200 200" width="300" className="svgg">
+        <svg viewBox="0 0 200 200" width="300" className="svgg -mb-8">
           <defs>
             <mask id="text-mask">
               <rect width="100%" height="100%" fill="black"/>
@@ -71,7 +71,7 @@ const Load = ({children}:{children:React.ReactNode}) => {
           </text>
 
           <rect y="200" width="600" height="200"
-                fill="hsl(226, 70%,93%)"
+                fill="#cad5e2 "
                 mask="url(#text-mask)">
             <animate
               attributeName="y"
@@ -81,7 +81,7 @@ const Load = ({children}:{children:React.ReactNode}) => {
               repeatCount="indefinite" />
           </rect>
         </svg>
-        <p className=" p mb-10 text-white text-2xl mt-[-4rem] ml-20">wheels</p>
+        <p className=" p mb-10 text-white text-2xl -mt-30  ml-25">wheels</p>
 
       </div>
 
