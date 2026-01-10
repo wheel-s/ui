@@ -40,7 +40,7 @@ const Load = ({children}:{children:React.ReactNode}) => {
   return (
     <div className="w-full h-screen  flex justify-center  bgg">
        <div className="mt-50">
-        <svg viewBox="0 0 200 200" width="300" className="svgg -mb-8">
+        <svg viewBox="0 0 200 200" width="300" className="svgg -mb-4">
           <defs>
             <mask id="text-mask">
               <rect width="100%" height="100%" fill="black"/>

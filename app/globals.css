@@ -112,7 +112,6 @@ th{
 }
 .active{
   color: white;
-  font:bold;
     animation:tada 1s;
 }
 

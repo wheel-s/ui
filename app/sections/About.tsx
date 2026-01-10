@@ -44,11 +44,11 @@ const About = () => {
   return (
     <div>
       <div className='px-7 lg:mt' >
-        <h1 className='ss text-lg text-white font-bold mb-10 font-mono  lg:hidden tracking-wider'>ABOUT</h1>
+        <h1 className='ss text-lg text-white font-bold mb-10 text-[1rem]  lg:hidden tracking-wider'>ABOUT</h1>
   
    
     
-        <div className='font-mono font-medium tracking-tighter md:text-[1.03rem]   text-[hsl(225,18%,61%)] '>
+        <div className=' man -tracking-normal text-[.96rem] md:text-[1.03rem]   text-[hsl(225,18%,61%)] '>
           
            <p className="ss">
              I’m a developer trying to make my workkflow and my software more solid everyday.
