@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import p1 from '../../public/images/verizon.png'
-import jv from  '../../public/images/spring.png'
+import p1 from '../../public/images/ht.webp'
+import jv from  '../../public/images/hpp.png'
 import mv from '../../public/images/akatsuki.jpg'
 const page = () => {
   return (
