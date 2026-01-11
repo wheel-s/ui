@@ -87,7 +87,7 @@ const Skills = () => {
             </div>
              <div className='mt-6  man'>
                 <div className='flex gap-2'>
-                    <h1 className='text-[.86rem] font-semibold'>Tools & Platforms</h1>
+                    <h1 className='text-[.86rem] font-semibold text-slate-300'>Tools & Platforms</h1>
                    
                 </div>
                 
