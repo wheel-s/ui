@@ -67,8 +67,7 @@ const About = () => {
             </p>
             <p className='mt-10' id="1">
                 In my spare time, <span className="text-slate-200">I’m usually reading,</span> listening to Music, <span className="text-slate-200">playing the bass,</span>  hanging out with my friends, or playing games ( Call Of Duty, Fc, Need For Speed, MortalCombat )            
-            
-            .
+.
             </p>
         </div>
       </div>

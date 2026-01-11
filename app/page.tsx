@@ -3,6 +3,7 @@ import Header from "./sections/header";
 import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
 import { BodyProvider } from "./hooks/BodyProvider";
 
 
@@ -25,6 +26,7 @@ export default function Home() {
           <About/>
           <Experience/>
           <Projects/> 
+          <Skills/>
 
         </div>
         

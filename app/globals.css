@@ -220,9 +220,31 @@ animation: fadeBlur 2s 3s  forwards;
 }
 
 .f{
-  font-family: 'Roboto';
-  font-size: .93rem;
+  font-family: monospace;
+  font-size: .82rem;
   font-weight:10;
 }
 
 
+
+.b{
+  background: 
+  radial-gradient(
+    600px circlel at 20% 10%,
+    hsla(220, 40%, 85%, 0.06)
+    transparent 60%
+  ),
+  radial-gradient(
+    800px circlel at 80% 20%,
+    hsla(220, 40%, 80%, 0.04)
+    transparent 65%
+  )
+  radial-gradient(
+    700px circlel at 50% 90%,
+    hsla(220, 30%, 70%, 0.03)
+    transparent 70%
+  ),
+  hsla(220, 30%, 10%);
+
+  
+}

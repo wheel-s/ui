@@ -19,7 +19,7 @@ const Header = () => {
         </div>
 
         <div className="hidden  lg:block p-7 mt-5 ">
-          <h3 className={port==1?"active font-bold text-xl":"font-bold text-[#8892b0] text-sm"}  id='id1'> <span className={port==1?"hidden":"mr-2 -ml-1 font-light"}> ——</span> ABOUT</h3>
+          <h3 className={port==1?"active font-bold ":"font-bold text-[#8892b0] text-sm"}  id='id1'> <span className={port==1?"hidden":"mr-2 -ml-1 font-light"}> ——</span> ABOUT</h3>
            <h3 className={port==2?"active mt-7 font-bold ":"font-bold mt-7 text-[#8892b0] text-sm"}  id='id2'> <span className={port==2?"hidden":"mr-2 -ml-1 font-light"}> —— </span>EXPERIENCE</h3>
             <h3 className={port==3?"active mt-7 font-bold ":"font-bold mt-7 text-[#8892b0] text-sm"}  id='id3'> <span className={port==3?"hidden":"mr-2 -ml-1 font-light"}>—— </span>PROJECTS</h3>
         </div>
