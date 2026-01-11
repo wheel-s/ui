@@ -81,7 +81,7 @@ const Load = ({children}:{children:React.ReactNode}) => {
               repeatCount="indefinite" />
           </rect>
         </svg>
-        <p className=" p mb-10 text-white font-mono text-2xl -mt-30  ml-25">wheels</p>
+        <p className=" p mb-10 text-white font-mono text-2xl -mt-30  ml-23">wheels</p>
 
       </div>
 

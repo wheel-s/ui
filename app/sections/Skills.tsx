@@ -40,50 +40,50 @@ const Skills = () => {
   return (
     <div>
         
-        <div className='p-7 mb-3 rounded-md bg-[hsl(220,30%,11%)] h-132'>
+        <div className='p-7 mb-3 rounded-md bg-[hsl(220,30%,11%)] '>
             <div className='flex gap-3'>
                 <FaCode className='mt-1 text-slate-300'/>  
-                <h1 className='text-xl man font-bold tracking-wide'>Skills</h1>  
+                <h1 className='text-xl man font-bold text-slate-300 tracking-wide'>Skills</h1>  
             </div>
             <p className='f mt-2 text-[hsl(220,15%,71%)]'>.......................</p>
-            <hr  className='mt-4 text-[hsl(220,15%,21%)]'/>
+            <hr  className='mt-4 text-[hsl(220,15%,41%)]'/>
             <div className='mt-6 man'>
                 <div className='flex gap-2'>
-                    <h1 className='text-[.87rem] font-semibold'>Languages</h1>
+                    <h1 className='text-[.87rem] text-slate-300 font-semibold'>Languages</h1>
                     
                 </div>
                
-                <p className='text-[hsl(220,15%,71%)] f text-[.77rem] mt-2'>C/C++, Python, JavaScript / TypeScript, Java, Go, SQL, HTML, CSS.</p>
+                <p className='text-[hsl(220,15%,71%)] f  mt-2'>C/C++, Python, JavaScript / TypeScript, Java, Go, SQL, HTML, CSS.</p>
             
-                <hr  className='mt-4 text-[hsl(220,15%,21%)]'/>
+                <hr  className='mt-4 text-[hsl(220,15%,41%)]'/>
             </div>
 
-             <div className='mt-6 man'>
+             <div className='mt-6 f'>
                 <div className='flex gap-2'>
-                    <h1 className='text-[.86rem] font-semibold'>Frameworks & Libraries</h1>
+                    <h1 className='text-[.86rem] font-semibold text-slate-300 man'>Frameworks & Libraries</h1>
                    
                 </div>
 
-                <div  className='flex mt-3 gap-1'>
-                    <h3 className='f'>Frontend / UI: </h3>
+                <div  className='flex mt-3 gap-1 '>
+                    <h3 className='f text-slate-300'>Frontend / UI: </h3>
                     <p className='text-[hsl(220,15%,71%)]  text-[.77rem] '>React, Tailwind, Next.js, vue, Svelte</p>
                 </div>
 
                 <div className='flex mt-3 gap-1'>
-                    <h3 className='f'>Backend(API): </h3>
+                    <h3 className='f text-slate-300'>Backend(API): </h3>
                     <p className='text-[hsl(220,15%,71%)]  text-[.77rem] '>Express.js, FastAPI, Flask, Node.js, Django, Springboot</p>
                 </div>
 
                 <div className='flex mt-3 gap-1'>
-                    <h3 className='f'>Graphics: </h3>
+                    <h3 className='f text-slate-300'>Graphics: </h3>
                     <p className='text-[hsl(220,15%,71%)]  text-[.77rem] '>raylib, SDL, OpenGL, Vulcan</p>
                 </div>
                 <div className='flex mt-3 gap-1'>
-                    <h3 className='f'>Database: </h3>
+                    <h3 className='f text-slate-300'>Database: </h3>
                     <p className='text-[hsl(220,15%,71%)]  text-[.77rem] '>PostgreSQL, Mongodb, MySQL.</p>
                 </div>
                
-                <hr  className='mt-4 text-[hsl(220,15%,21%)]'/>
+                <hr  className='mt-4 text-[hsl(220,15%,41%)]'/>
             </div>
              <div className='mt-6  man'>
                 <div className='flex gap-2'>
@@ -94,10 +94,10 @@ const Skills = () => {
                
                 <p className='text-[hsl(220,15%,71%)] f text-[.77rem] mt-2'>Git, Github, Docker, Kafka, RabbitMQ, CI/CD, Redis, AWS, GCP, Postman, Azure, Figma,Vercel, Hostinger.</p>
                
-                <hr ref={ref} className='mt-4  text-[hsl(220,15%,21%)] '/>
+                <hr ref={ref} className='mt-4  text-[hsl(220,15%,41%)] '/>
                 
             </div>
-
+            <p className='tracking-wider f mt-2 text-[hsl(220,15%,71%)] text-end'>......................</p>
         </div>
 
 
